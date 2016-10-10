@@ -1,0 +1,41 @@
+body {
+	font-family: Verdana;
+}
+
+.wrapper {
+	width: 100%;
+  margin: 0 auto;
+}
+
+.flexbox-container {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	background-color: #fff;
+}
+
+article {
+	flex-grow: 1;
+	flex-basis: 45%;
+	min-height: 300px;
+	margin: 20px;
+	box-sizing: border-box;
+	border: 1px #000 solid;
+	/*background-color: #edd2a4;*/
+}
+
+article h3,
+article h4 {
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 5px;
+}
+
+article h3 {
+	color: orange;
+}
+
+article img {
+	width: 100%;
+	height: 100%;
+}
