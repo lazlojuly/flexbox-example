@@ -1,4 +1,5 @@
 # flexbox-example
-Multi-column flexbox layout
 
-https://lazlojuly.github.io/flexbox-example/
+My first multi-column flexbox layout
+
+Demo: https://lazlojuly.github.io/flexbox-example/
